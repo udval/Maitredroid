@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="576dp"
+        android:background="#ffffff"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:scrollbars="vertical"
+        tools:context=".MainActivity" >
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/LoginFormContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/LoginFormContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="14dp"
+            android:textColor="#ffffff" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignTop="@+id/textView4"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:focusable="true"
+            android:fontFamily="verdana"
+            android:hint="Restaurant"
+            android:inputType="textNoSuggestions" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView01"
+            android:layout_marginTop="28dp"
+            android:entries="@array/itemnames" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/autoCompleteTextView2"
+            android:layout_marginTop="23dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/numberofpat"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignParentTop="true"
+            android:text="@string/welcome"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/spinner1"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/selectcity"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black"
+            android:textColorHint="#0000ff"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="31dp"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:focusable="true"
+            android:fontFamily="verdana"
+            android:hint="City"
+            android:inputType="textNoSuggestions"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/ButtonBar"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_alignRight="@+id/spinner1"
+            android:layout_below="@+id/spinner1"
+            android:layout_toRightOf="@+id/textView6"
+            android:background="@color/Black"
+            android:text="@string/button1"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/spinner1"
+            android:layout_below="@+id/spinner1"
+            android:background="#000000"
+            android:text="@string/reset"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/LoginFormContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/autoCompleteTextView1"
+            android:layout_marginTop="23dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/HotelSelect"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+</ScrollView>

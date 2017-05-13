@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maître d’rôîd</string>
+    <string name="action_settings">Settings</string>
+    <string name="button1">Submit</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Sooso">You want food</string>
+    <string name="text1">Select your Hotel</string>
+    <string name="HotelSelect">Select the restaurant</string>
+    <string name="numberofpat">Enter the Number of patrons</string>
+    <string name="phonen">Enter Your Phone Number</string>
+    <string name="reset">Reset</string>
+    <string name="forpg2">Content</string>
+    <string name="title_activity_page3">Page_3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ipdec">Intermediate page/Will be scrapped in the final design</string>
+    <string name="RC">Registration Confirmed</string>
+    <string name="eta">ETA</string>
+    <string name="regfail">Resistration Failure</string>
+    <string name="Finalnoti">FInal notification</string>
+    <string name="title_activity_act3">Act3</string>
+    <string name="title_activity_m4">M4</string>
+    <string name="title_activity_m5">M5</string>
+    <string name="title_activity_m6">M6</string>
+    <string name="reg_text">&quot;You have selected __________ Restaurant for _ People . Please Select the convenient time :  &quot;</string>
+    <string name="ETAa">"Your table for __ people in ____ hotel has been reserved . You'll be notified as soon as your table is free . "</string>
+    <string name="failure_rep">Extremely sorry but your request could not be processed as the restaurant is closed for business/other errors.</string>
+    <string name="final_noti">*Push Message*:You may arrive at the restaurant now .</string>
+    <string name="rateapp">Hit 5 if you liked our app !</string>
+    <string name="buttongame">Play a game while you wait or surf internet.                Game rules: Make the ball reach the end point. Use Voume key for UP and DOWN and search key for right and men key for left. Use Back key for exit.</string>
+
+    <color name="Darkblue">#0f005f</color>
+    <color name="Black">#000000</color>
+
+    <string name="title_activity_main1">MainActivity</string>
+
+    <string-array name="itemnames">
+        <item>Uudval</item>
+        <item>Ahmedabad</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Baroda</item>
+        <item>Surat</item>
+        <item>Delhi</item>
+    </string-array>
+    <string-array name="foodcatnames">
+        <item>Starter</item>
+        <item>Soups</item>
+        <item>Salads</item>
+        <item>Main Course</item>
+        <item>Breads</item>
+        <item>Rice</item>
+        <item>Desserts</item>
+    </string-array>
+    <string-array name="Starter">
+        <item>Cutlets</item>
+        <item>Paneer Tikka</item>
+        <item>Roasted Crips</item>
+        <item>French Fries</item>
+    </string-array>
+
+    <string name="option">Or Select From MAP</string>
+    <string name="selectcity">Select Your City</string>
+
+    <string-array name="itemnames2">
+        <item>Marriot</item>
+        <item>Dominoes,Drive-in</item>
+        <item>Dominoes,Shahibaug</item>
+        <item>Dominoes,C G Road</item>
+        <item>Barbeque Nation,Drive-in</item>
+        <item>Barbeque Nation,Vastrapur</item>
+        <item>Pizza Hut,Vastrapur</item>
+        <item>Pizza Hut,SG Highway</item>
+    </string-array>
+
+    <string name="welcome">Welcome Mr.Kumar</string>
+    <string name="diffuser">Not Mr.Kumar ?Click me</string>
+    <string name="title_activity_extra_net">ExtraNetAct</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <!-- Delete this is at all -->
+    <string name="btn_newgame">New Game</string>
+    <string name="btn_exit">Exit</string>
+    <string name="levelSelect">Select Maze</string>
+    <string name="finished_title">Congrats</string>
+    <string name="finished_text">Level Cleared</string>
+    <string name="finished_button">End Game</string>
+    <string name="title_activity_game_start">Game_start</string>
+
+</resources>
